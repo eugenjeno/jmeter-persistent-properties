@@ -24,11 +24,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-import org.apache.jmeter.processor.PostProcessor;
+import org.apache.jmeter.processor.PreProcessor;
 import org.apache.jmeter.threads.JMeterVariables;
 
 public final class ReadProperties extends AbstractPersistentProperties
-		implements PostProcessor {
+		implements PreProcessor {
 
 	private static final long serialVersionUID = 0L;
 
